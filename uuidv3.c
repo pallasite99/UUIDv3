@@ -79,7 +79,7 @@ void sha256_hash_string (unsigned char hash[SHA256_DIGEST_LENGTH], char outputBu
 	strncat(uuid, &outputBuffer[20], 12);
 
 	/* Printing generated UUID */
-	printf("%s\n",uuid);
+	printf("UUID:%s\n",uuid);
 
 	/* Free memory for uuid since its no longer needed */
 	free(uuid);
