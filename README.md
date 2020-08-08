@@ -13,6 +13,3 @@ A C implementation to generate UUID version 3 using MAC address and UNIX timesta
 * UNIX timestamp was extracted using `time.h` library with the `time()` function.
 * Hash used - SHA256
 ![SHA 256](https://en.bitcoinwiki.org/upload/en/images/f/f8/Sha-256.jpg)
-
-## Output
-![uuidv3](/uploads/8d42a9531dacacbcbcee8a57185760af/uuidv3.png)
